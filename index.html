@@ -232,7 +232,7 @@
                     // tampilkan alert
                     myAlert.classList.toggle('d-none');
                     // reset form
-                    form = reset();
+                    form.reset();
                     console.log('Success!', response)
                 })
                 .catch(error => console.error('Error!', error.message))
