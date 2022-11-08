@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <!-- boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -65,15 +67,15 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit qui commodi odio fuga adipisci
                         cumque aut molestiae quo sapiente assumenda.
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="400">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit unde minus, sed error itaque
                         doloremque iure, veritatis dolor cupiditate aliquam eum ducimus voluptatum quia repellat quas
-                        vero culpa facere aut!
+                        vero culpa facere!
                     </p>
                 </div>
             </div>
@@ -98,51 +100,32 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
                         <img src="img/projects/1.png" class="card-img-top" alt="img1">
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                         <img src="img/projects/2.png" class="card-img-top" alt="img2">
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                         <img src="img/projects/3.png " class="card-img-top" alt="img3">
                     </div>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                         <img src="img/projects/4.png" class="card-img-top" alt="img4">
                     </div>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                         <img src="img/projects/5.png" class="card-img-top" alt="img5">
                     </div>
                 </div>
-                <div class="col-md-12 mb-3">
-                    <div class="card">
-                        <img src="img/projects/7.png" class="card-img-top" alt="img7">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/8.png" class="card-img-top" alt="img8">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/9.png" class="card-img-top" alt="img6">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/projects/9.png" class="card-img-top" alt="img9">
-                    </div>
-                </div>
             </div>
+        </div>
         </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -209,6 +192,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
 
 
     <script>
